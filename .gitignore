@@ -1,0 +1,17 @@
+# Never commit personal data
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/README.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
