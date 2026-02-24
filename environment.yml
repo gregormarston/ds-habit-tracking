@@ -1,0 +1,19 @@
+name: ds-habit-tracking
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - pip
+
+  - pip:
+      # Add pip-only packages here later if needed
